@@ -5,6 +5,6 @@ const NumbersCollection_1 = require("./NumbersCollection");
 console.log("------Start-----");
 const numbersCollection = new NumbersCollection_1.NumbersCollection([10, 3, -5, 0]);
 const sorter = new Sorter_1.Sorter(numbersCollection);
-console.log(sorter.collection.data);
+console.log(numbersCollection.data);
 sorter.sort();
-console.log(`Sorted: ${sorter.collection.data}`);
+console.log(`Sorted: ${numbersCollection.data}`);
